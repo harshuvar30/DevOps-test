@@ -1,3 +1,4 @@
 #!/bin/bash
 
-sudo service nginx start
+# Restart Nginx to ensure the latest config is active
+sudo systemctl restart nginx
